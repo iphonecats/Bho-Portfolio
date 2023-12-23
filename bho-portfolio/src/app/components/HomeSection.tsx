@@ -21,7 +21,7 @@ const HomeSection = () => {
                 <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Brandon!</h1>
                 <p className="text-lg mt-4 mb-6 md:text-2xl">
                     I&#39;m a{" "}
-                    <span className="font-semibold text-teal-600">
+                    <span className="font-semibold text-blue-400">
                     Software Engineer{" "}
                     </span>
                     based in Atlanta, GA. Working on meaningful projects
