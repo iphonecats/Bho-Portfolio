@@ -1,11 +1,13 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import { Link } from "react-scroll/modules"
+import { HiArrowDown } from "react-icons/hi"
 
 const HomeSection = () => {
   return (
     <section id="home">
-        <div>
+        <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-10 md:py-20 md:flex-row md:space-x-4 md:text-left">
             <div>
                 <Image
                     src={"/images/headshot.png"}
@@ -23,8 +25,20 @@ const HomeSection = () => {
                     Software Engineer{" "}
                     </span>
                     based in Atlanta, GA. Working on meaningful projects
-                    to make life easier for people!.
+                    to make life easier for people!
                 </p>
+            </div>
+            <div className="flex flex-row items-center text-center justify-center ">
+                <Link
+                    to="about"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                >
+                    <HiArrowDown size={35} className="animate-bounce" />
+                </Link>
             </div>
         </div>
     </section>
