@@ -47,13 +47,13 @@ const AboutSection = () => {
               <br />
               <p>
                 I currently attend the Georgia Institute of Technology
-                pursuing a BS in Computer Science. In school, I am apart of the Mens Volleyball Club and
+                pursuing a BS in Computer Science. In school, I am a part of the Mens Volleyball Club and
                 the Vietnamese Student Association.
               </p>
               <br />
               <p>
-                I have many interests including entrepreneurship, sports/gym, food/cooking, as well as the
-                talking about the political and economical state of the world. I constantly seek new challenges and to self improve
+                I have many interests including entrepreneurship, sports/gym, food/cooking, as well as talking about 
+                the political and economic state of the world. I constantly seek new challenges and to self improve
                 on a daily basis!
               </p>
               <br />
