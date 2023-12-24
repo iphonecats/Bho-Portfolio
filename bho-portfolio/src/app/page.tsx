@@ -5,7 +5,7 @@ import CatImageGenerator from "./components/CatImageGenerator"
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
+    <main className="mx-auto max-w-3xl px-3 sm:px-6 md:max-w-5xl">
       <HomeSection />
       <AboutSection />
       <ProjectsSection />
