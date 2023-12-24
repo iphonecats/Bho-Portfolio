@@ -14,7 +14,7 @@ const HomeSection = () => {
             alt=""
             width={325}
             height={325}
-            className="rounded-full shadow-2xl"
+            className="rounded-3xl shadow-2xl"
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
