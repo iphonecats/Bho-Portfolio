@@ -55,14 +55,14 @@ const NavBar = () => {
               navbar ? "block" : "hidden"
             }`}
           >
-            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 border-2 rounded border-black p-1">
+            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 ">
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link
                     key={idx}
                     to={item.page}
                     className={
-                        "block lg:inline-block hover:text-neutral-500 "
+                        "block lg:inline-block hover:text-neutral-500 border-2 rounded border-black p-1 flex items-center justify-center"
                     }
                     activeClass="active"
                     spy={true}
