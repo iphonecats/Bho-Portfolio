@@ -5,7 +5,7 @@ import CatImageGenerator from "./components/CatImageGenerator"
 import { Metadata } from 'next'
  
 export const metadata: Metadata = {
-  title: 'Brandon Ho',
+  title: 'Brandon Ho 🥶',
 }
 
 export default function Home() {
