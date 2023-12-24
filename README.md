@@ -1,2 +1,2 @@
 # Bho-Portfolio
-Brandon Ho's Portfolio
+Hello! This is my portfolio!
