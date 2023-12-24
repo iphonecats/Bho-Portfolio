@@ -45,7 +45,7 @@ const CatImageGenerator = () => {
   return (
     <section id="cat">
         <div className="my-10 text-center font-bold font-mono text-4xl pt-40">
-        <div className="lg:inline-block hover:text-neutral-500 border-2 rounded border-blue-200 p-1 flex items-center justify-center">
+        <div className="lg:inline-block hover:text-neutral-500 border-2 rounded-3xl border-blue-200 p-3 flex items-center justify-center">
           <button onClick={generateRandomCat}>Click Me =^_^=</button>
         </div>
         <hr className="w-10 h-2 mx-auto my-3 bg-gray-500 border-0 rounded"></hr>
