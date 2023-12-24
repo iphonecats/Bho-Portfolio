@@ -1,4 +1,5 @@
 import React from "react"
+import Image from "next/image"
 
 const skills = [
   { skill: "Java" },
@@ -80,6 +81,18 @@ const AboutSection = () => {
                   </p>
                 )
               })}
+            </div>
+            <hr className="w-4 h-1 mx-auto my-2 bg-black border-0 rounded"></hr>
+            <div className="outer-container flex items-center justify-center">
+              <div className="p-2 border-2 rounded border-blue-200">
+                <Image
+                  src="/images/volleyball.JPG"
+                  alt=""
+                  width={325}
+                  height={325}
+                  className="w-full h-full object-cover rounded"
+                />
+              </div>
             </div>
           </div>
         </div>
