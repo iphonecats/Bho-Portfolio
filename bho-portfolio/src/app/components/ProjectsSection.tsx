@@ -8,7 +8,7 @@ const projects = [
   {
     name: "This Website!",
     description:
-      "A personal website created using JavaScript, Typescript, and React with Next,js styled with Tailwind CSS",
+      "A personal website created using JavaScript, Typescript, and React with Next.js styled with Tailwind CSS",
     image: "/images/Portfolio.png",
     github: "https://github.com/iphonecats/Bho-Portfolio",
     link: "https://www.linkedin.com/in/brandondho",
