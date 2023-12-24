@@ -22,6 +22,10 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Projects",
     page: "projects",
   },
+  {
+    label: "🐈",
+    page: "cat",
+  },
 ]
 
 const NavBar = () => {
