@@ -29,7 +29,7 @@ const NavBar = () => {
   const [navbar, setNavbar] = useState(false)
 
   return (
-    <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-blue-300">
+    <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-blue-300 border rounded-b-xl">
       <div className="justify-between md:item-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block hover:text-gray-500">
