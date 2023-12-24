@@ -1,8 +1,20 @@
 "use client" 
 import React, { useState } from 'react'
 
+interface Breed {
+  name: string;
+  description: string;
+}
+
+interface CatData {
+  url: string;
+  breeds?: Breed[];
+  width: number;
+  height: number;
+}
+
 const CatImageGenerator = () => {
-  const [catData, setCatData] = useState(null);
+  const [catData, setCatData] = useState<CatData | null>(null);
   const apiKey = 'live_Xk1fGFfhR6PFjOs4UN2Y6GsmYoKAMlw1mDyl6K1rznsH1wg45jgAzvZFTIlFjpvw'
 
   const generateRandomCat = async () => {
@@ -26,6 +38,10 @@ const CatImageGenerator = () => {
     }
   };
 
+  const hasBreeds = (data: CatData): data is CatData & { breeds: Breed[] } => {
+    return !!data.breeds && data.breeds.length > 0;
+  };
+
   return (
     <section id="cat">
         <div className="my-10 text-center font-bold font-mono text-4xl">
@@ -37,10 +53,10 @@ const CatImageGenerator = () => {
                 alt="Random Cat"
                 className="w-full h-full object-cover rounded-3xl"
             />
-            {catData.breeds.length > 0 && (
-                <p className="mt-2 text-gray-600">
+            {hasBreeds(catData) && (
+              <p className="mt-2 text-gray-600">
                 Breed: {catData.breeds[0].name} - {catData.breeds[0].description}
-                </p>
+              </p>
             )}
             </div>
         )}
