@@ -35,7 +35,7 @@ const NavBar = () => {
           <div className="flex items-center justify-between py-3 md:py-5 md:block hover:text-gray-500">
             <Link to="home" smooth={true} >
               <div className="container flex items-center space-x-2 ">
-                <h2 className="text-2xl font-bold">Brandon Ho</h2>
+                <h2 className="text-2xl font-extrabold">Brandon Ho</h2>
               </div>
             </Link>
             <div className="md:hidden">
@@ -55,7 +55,7 @@ const NavBar = () => {
               navbar ? "block" : "hidden"
             }`}
           >
-            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 ">
+            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-mono">
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link

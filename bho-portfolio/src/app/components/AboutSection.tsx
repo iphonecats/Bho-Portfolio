@@ -25,19 +25,19 @@ const AboutSection = () => {
   return (
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
-        <h1 className="text-center font-bold text-4xl">
+        <h1 className="text-center font-bold text-4xl font-mono">
           About Me
           <hr className="w-10 h-2 mx-auto my-3 bg-gray-400 border-0 rounded"></hr>
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left ">
           <div className="md:w-1/2">
-            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
+            <h1 className="text-center text-2xl font-bold font-mono mb-6 md:text-left">
               A tiny introduction...
             </h1>
             <div className="p-4 border-2 rounded-3xl border-blue-200">
               <p>
-                Hi, my name is Brandon and I am a{" "}
+                Hello, my name is Brandon and I am a{" "}
                 <span className="font-bold">{" curious"}</span>,
                 <span className="font-bold">{" compassionate"}</span>, and
                 <span className="font-bold">{" driven"}</span> software engineer
@@ -69,7 +69,7 @@ const AboutSection = () => {
             
           </div>
           <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold mb-6">My Skills</h1>
+            <h1 className="text-2xl font-bold font-mono mb-6">My Skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start p-4 border-2 rounded-3xl border-blue-200">
               {skills.map((item, idx) => {
                 return (
