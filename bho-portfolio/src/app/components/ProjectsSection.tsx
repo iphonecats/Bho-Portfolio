@@ -6,6 +6,14 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
+    name: "CodeMettle's UltiSat",
+    description:
+      "Created dashboards showing telemetry data from satellites for our client, UltiSat, integrating UltiSat & Starlink API into the Codemettle System.",
+    image: "/images/codemettle.png",
+    github: "https://codemettle.com/",
+    link: "https://codemettle.com",
+  },
+  {
     name: "This Website!",
     description:
       "A personal website created using JavaScript, Typescript, and React with Next.js styled with Tailwind CSS",

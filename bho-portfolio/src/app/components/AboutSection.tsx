@@ -1,10 +1,10 @@
 import React from "react"
-import Image from "next/image"
 
 const skills = [
   { skill: "Java" },
   { skill: "Python" },
   { skill: "C#" },
+  { skill: "API" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
   { skill: "React" },
