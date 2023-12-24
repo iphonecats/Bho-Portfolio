@@ -62,7 +62,7 @@ const NavBar = () => {
                     key={idx}
                     to={item.page}
                     className={
-                        "block lg:inline-block hover:text-neutral-500 border-2 rounded border-black p-1 flex items-center justify-center"
+                        "lg:inline-block hover:text-neutral-500 border-2 rounded border-gray-400 p-1 flex items-center justify-center"
                     }
                     activeClass="active"
                     spy={true}
