@@ -2,7 +2,8 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import { BsGithub } from "react-icons/bs"
+import { BiLink } from "react-icons/bi";
 
 const projects = [
   {
@@ -61,7 +62,7 @@ const ProjectsSection = () => {
                         />
                       </Link>
                       <Link href={project.link} target="_blank">
-                        <BsArrowUpRightSquare
+                        <BiLink
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />

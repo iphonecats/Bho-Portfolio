@@ -24,7 +24,7 @@ const HomeSection = () => {
             <span className="font-semibold text-blue-400">
             Software Engineer{" "}
             </span>
-            based in Atlanta, GA. Working on meaningful projects
+            based in Atlanta, GA. working on meaningful projects
             to make life easier for people!
           </p>
         </div>
