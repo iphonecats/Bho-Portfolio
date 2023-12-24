@@ -32,7 +32,7 @@ const NavBar = () => {
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-blue-300">
       <div className="justify-between md:item-center md:flex">
         <div>
-          <div className="flex items-center justify-between py-3 md:py-5 md:block hover:text-neutral-500">
+          <div className="flex items-center justify-between py-3 md:py-5 md:block hover:text-gray-500">
             <Link to="home" smooth={true} >
               <div className="container flex items-center space-x-2 ">
                 <h2 className="text-2xl font-bold">Brandon Ho</h2>
@@ -40,7 +40,7 @@ const NavBar = () => {
             </Link>
             <div className="md:hidden">
               <button 
-                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                className="p-2 text-black rounded-md outline-none focus:border-gray-500 focus:border"
                 onClick={() => setNavbar(!navbar)}
                 >
                 {navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
@@ -62,7 +62,7 @@ const NavBar = () => {
                     key={idx}
                     to={item.page}
                     className={
-                        "lg:inline-block hover:text-neutral-500 border-2 rounded border-gray-400 p-1 flex items-center justify-center"
+                        "lg:inline-block hover:text-neutral-500 border-2 rounded border-gray-500 p-1 flex items-center justify-center"
                     }
                     activeClass="active"
                     spy={true}
