@@ -41,7 +41,7 @@ const AboutSection = () => {
                 <span className="font-bold">{" curious"}</span>,
                 <span className="font-bold">{" compassionate"}</span>, and
                 <span className="font-bold">{" driven"}</span> software engineer
-                from in Suwanee, GA. My goal is to be a well rounded full stack engineer, mastering
+                from Suwanee, GA. My goal is to be a well rounded full stack engineer, mastering
                 the e2e development and deployment of any software application.
               </p>
               <br />
@@ -52,18 +52,18 @@ const AboutSection = () => {
               </p>
               <br />
               <p>
-                I have many interests including entrepreneurship, sports & gym, food & cooking, and the
-                political and economical state of the world. I constantly seek new challenges and self improve
+                I have many interests including entrepreneurship, sports/gym, food/cooking, as well as the
+                talking about the political and economical state of the world. I constantly seek new challenges and to self improve
                 on a daily basis!
               </p>
               <br />
               <p>
                 I believe that you should{" "}
                 <span className="font-bold text-blue-400">
-                  always seek challenges
+                  always seek new challenges
                 </span>{" "}
-                and that way you will continually grow. I love making people happy and
-                I have come to learn the power that software has to change lives.
+                and that way you will continually grow. I love making people smile and
+                my mission is to do so through software.
               </p>
             </div>
             
