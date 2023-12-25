@@ -25,17 +25,17 @@ const AboutSection = () => {
   return (
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
-        <h1 className="text-center font-bold text-4xl font-mono">
+        <h1 className="text-center font-extrabold text-4xl ">
           about
           <hr className="w-10 h-2 mx-auto my-3 bg-gray-400 border-0 rounded"></hr>
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left ">
           <div className="md:w-1/2">
-            <h1 className="text-center text-2xl font-bold font-mono mb-6 md:text-left">
+            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               a tiny introduction...
             </h1>
-            <div>
+            <div className="font-light">
               <p>
                 Hello, my name is Brandon and I am a{" "}
                 <span className="font-bold">{" curious"}</span>,
@@ -68,13 +68,13 @@ const AboutSection = () => {
             
           </div>
           <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold font-mono mb-6">skills</h1>
+            <h1 className="text-2xl font-bold mb-6">skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-black"
                   >
                     {item.skill}
                   </p>
@@ -87,8 +87,8 @@ const AboutSection = () => {
                 <Image
                   src="/images/volleyball.JPG"
                   alt=""
-                  width={250}
-                  height={250}
+                  width={150}
+                  height={150}
                   className="w-full h-full object-cover rounded-3xl"
                 />
               </div>

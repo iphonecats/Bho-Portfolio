@@ -43,7 +43,7 @@ const projects = [
 const ProjectsSection = () => {
   return (
     <section id="projects">
-      <h1 className="my-10 text-center font-bold font-mono text-4xl">
+      <h1 className="my-10 text-center font-extrabold text-4xl">
         works
         <hr className="w-10 h-2 mx-auto my-3 bg-gray-400 border-0 rounded"></hr>
       </h1>
@@ -65,8 +65,8 @@ const ProjectsSection = () => {
                     </Link>
                   </div>
                   <div className="mt-8 md:w-1/2">
-                    <h1 className="text-4xl font-bold mb-6 font-mono">{project.name}</h1>
-                    <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
+                    <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
+                    <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400 font-light">
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">

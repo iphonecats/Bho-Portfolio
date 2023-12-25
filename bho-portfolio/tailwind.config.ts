@@ -44,6 +44,9 @@ module.exports = {
           from: { transform: "translateY(10px)" },
           to: { transform: "translateY(0)" },
         },
+        fontFamily: {
+          sans: ['Inter', 'sans-serif'],
+        },
       },
     },
   },

@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body className='font-sans'>
         <NextUIProvider>
           <ThemeProvider enableSystem={true} attribute="class">
             <NavBar />
