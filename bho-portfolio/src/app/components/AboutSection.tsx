@@ -26,7 +26,7 @@ const AboutSection = () => {
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl font-mono">
-          About Me
+          about
           <hr className="w-10 h-2 mx-auto my-3 bg-gray-400 border-0 rounded"></hr>
         </h1>
 
