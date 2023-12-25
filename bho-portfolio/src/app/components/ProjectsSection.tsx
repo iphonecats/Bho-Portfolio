@@ -23,10 +23,18 @@ const projects = [
     link: "https://www.facebook.com/402SWEG/",
   },
   {
+    name: "Prompt Battle",
+    description:
+      "r/Place inspired canvas built with Next.js and SQLite database, promoting community interaction and art expression through prompt generated AI images. Backend written in Typescript to make API calls to DALLE and display a new image every time the prompt is changed",
+    image: "/images/prompt-battle.png",
+    github: "",
+    link: "",
+  },
+  {
     name: "This Website!",
     description:
       "A personal website with Next.js styled with Tailwind CSS. The web app also features a random cat image-generating tool using thecatapi.com API.",
-    image: "/images/Portfolio.png",
+    image: "/images/cat.png",
     github: "https://github.com/iphonecats/Bho-Portfolio",
     link: "https://www.linkedin.com/in/brandondho",
   },
