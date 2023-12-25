@@ -11,15 +11,11 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: "Home",
-    page: "home",
-  },
-  {
-    label: "About",
+    label: "about",
     page: "about",
   },
   {
-    label: "Projects",
+    label: "projects",
     page: "projects",
   },
   {
@@ -33,13 +29,13 @@ const NavBar = () => {
   const [navbar, setNavbar] = useState(false)
 
   return (
-    <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-blue-300 border rounded-b-xl">
+    <header className="w-full mx-auto sm:px-20 top-0 pt-10">
       <div className="justify-between md:item-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block hover:text-gray-500">
             <Link to="home" smooth={true} >
               <div className="container flex items-center space-x-2 ">
-                <h2 className="text-2xl font-extrabold">Brandon Ho</h2>
+                <h2 className="text-2xl font-extrabold">bho</h2>
               </div>
             </Link>
             <div className="md:hidden">
