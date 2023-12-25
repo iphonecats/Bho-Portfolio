@@ -35,7 +35,7 @@ const AboutSection = () => {
             <h1 className="text-center text-2xl font-bold font-mono mb-6 md:text-left">
               A tiny introduction...
             </h1>
-            <div className="p-4 border-2 rounded-3xl border-blue-200">
+            <div>
               <p>
                 Hello, my name is Brandon and I am a{" "}
                 <span className="font-bold">{" curious"}</span>,
@@ -70,7 +70,7 @@ const AboutSection = () => {
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold font-mono mb-6">My Skills</h1>
-            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start p-4 border-2 rounded-3xl border-blue-200">
+            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
                   <p
@@ -83,13 +83,13 @@ const AboutSection = () => {
               })}
             </div>
             <hr className="w-4 h-1 mx-auto my-2 bg-black border-0 rounded"></hr>
-            <div className="outer-container flex items-center justify-center">
-              <div className="p-2">
+            <div>
+              <div className="pr-2">
                 <Image
                   src="/images/volleyball.JPG"
                   alt=""
-                  width={325}
-                  height={325}
+                  width={250}
+                  height={250}
                   className="w-full h-full object-cover rounded-3xl"
                 />
               </div>
