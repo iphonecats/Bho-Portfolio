@@ -52,8 +52,7 @@ const AboutSection = () => {
               </p>
               <br />
               <p>
-                I have many interests including entrepreneurship, sports/gym, food/cooking, as well as talking about 
-                the political and economic state of the world. I constantly seek new challenges and to self improve
+                I have many interests including entrepreneurship, sports/gym, and food/cooking. I constantly seek new challenges and to self improve
                 on a daily basis!
               </p>
               <br />
