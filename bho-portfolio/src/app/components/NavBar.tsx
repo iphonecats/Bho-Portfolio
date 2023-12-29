@@ -42,7 +42,7 @@ const NavBar = () => {
               <button 
                 className="p-2 rounded-md outline-none focus:border-gray-500 focus:border"
                 onClick={() => setNavbar(!navbar)}
-                >
+              >
                 {navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
               </button>
             </div>
@@ -62,7 +62,7 @@ const NavBar = () => {
                     key={idx}
                     to={item.page}
                     className={
-                        "lg:inline-block hover:text-neutral-500 p-1 flex items-center justify-center"
+                      "lg:inline-block hover:text-neutral-500 p-1 flex items-center justify-center"
                     }
                     activeClass="active"
                     spy={true}
