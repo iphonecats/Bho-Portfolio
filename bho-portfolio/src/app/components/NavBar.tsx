@@ -32,7 +32,7 @@ const NavBar = () => {
     <header className="w-full mx-auto sm:px-20 top-0 pt-10 text-xl">
       <div className="justify-around md:item-center md:flex">
         <div>
-          <div className="flex items-center justify-between py-3 md:py-5 md:block hover:text-gray-500">
+          <div className="flex items-center justify-between px-10 py-2 md:py-5 md:block hover:text-gray-500">
             <Link to="home" smooth={true} >
               <div className="container flex items-center space-x-2 ">
                 <h2 className="text-4xl font-black">bho.</h2>
